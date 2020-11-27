@@ -1,0 +1,67 @@
+<!DOCTYPE css>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+<title>Basic CSS Example</title>
+  
+    div {::-webkit-textfield-decoration-container
+        }
+
+    #main-bio { float: left;
+                width: 70%;
+              }
+    
+    #contact-info {float: left;
+                  width: 30%;
+                  line-height: 1.5;
+                  }
+
+    #bio-image {float: left;
+                width: 200px;
+                margin-left: 10px;
+                margin-right: 10px;
+                }
+
+    body {background-color: antiquewhite;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: black;
+          margin: 0;
+          padding: 0;
+        }
+         
+
+     a:link {
+      color: red;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color:black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color:blue;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    h1 {margin-bottom: 15px;
+      font-size: 28px;
+      color: #eee;
+      text-align: center;
+      background-color: black;
+    }
+  
+    
+    h2 { margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 24px;
+      text-align: left;
+    }
